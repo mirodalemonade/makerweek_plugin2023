@@ -1,0 +1,16 @@
+{
+  "name": "makerweek_plugin",
+  "version": "1.0.0",
+  "description": "makerweek_plugin will create a fun maker week banner for you.",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "typescript": "*"
+  }
+}
