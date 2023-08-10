@@ -44,7 +44,7 @@ figma.loadFontAsync(fontName).then(() => {
   figma.currentPage.appendChild(frame); 
   figma.currentPage.selection = nodes;
   figma.viewport.scrollAndZoomIntoView(nodes);
-  figma.closePlugin();
+  figma.closePlugin("Happy Maker week😙");
 });
 
 }
